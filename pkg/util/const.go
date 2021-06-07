@@ -102,9 +102,10 @@ const (
 	EcmpRouteType   = "ecmp"
 	NormalRouteType = "normal"
 
-	PodNicAnnotation = "ovn.kubernetes.io/pod_nic_type"
-	VethType         = "veth-pair"
-	InternalType     = "internal-port"
+	PodNicAnnotation   = "ovn.kubernetes.io/pod_nic_type"
+	VethType           = "veth-pair"
+	InternalType       = "internal-port"
+	PodNetNsAnnotation = "ovn.kubernetes.io/pod_netns"
 
 	ChassisLoc     = "/etc/openvswitch/system-id.conf"
 	HostnameEnv    = "KUBE_NODE_NAME"
